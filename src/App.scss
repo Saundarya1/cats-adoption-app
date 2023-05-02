@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+    background-color: rgb(230, 77, 21);
+}
+
+.wool {
+    margin-left: 22%;
+    background-color: transparent;
+    border: none;
+}
+
+.showCatsBtn {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+    background-color: rgba(180, 7, 7, 0.6);
+    border-radius: 7%;
+    border-color: rgb(55, 8, 8);
+    border-width: 10px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 40px;
+    color: white;
+}
