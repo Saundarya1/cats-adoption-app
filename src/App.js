@@ -21,7 +21,7 @@ function App() {
   useEffect(() => { }, [userAnswers]);
 
 
-  console.log(userAnswers);
+  // console.log(userAnswers);
 
   function handleNextStep(event) {
 
@@ -56,12 +56,17 @@ function App() {
       }
       return match;
     });
-
     setFilteredCats(filteredCats);
-    setStep(currentStep + 1);
-    console.log(filteredCats);
+    //console.log(filteredCats);
   }
 
+
+  function filterAndStep() {
+    filterCats()
+    setStep(currentStep + 1)
+  }
+
+  
   //APP
 
   return (
@@ -98,7 +103,7 @@ function App() {
 
       {currentStep === questions.length + 1 && (
         <div>
-          <button onClick={filterCats} className='showCatsBtn'>Kliknij i poznaj kandydatów!</button>
+          <button onClick={filterAndStep} className='showCatsBtn'>Kliknij i poznaj kandydatów!</button>
           <button className="wool" onClick={handlePreviousStep}><img src={wool} /></button>
         </div>
       )}
@@ -110,6 +115,7 @@ function App() {
             firstArray={filteredCats}
             secondArray={userAnswers}
             setAnswers={setAnswers}
+            setNewCats={filterCats}
           />
         </div>
 

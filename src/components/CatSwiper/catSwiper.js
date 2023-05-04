@@ -10,7 +10,7 @@ import { cats } from '../../assets/arrays/cats';
 function CatSwiper(props) {
 
     const answers = props.secondArray;
-    console.log(answers);
+    // console.log(answers);
 
 
 
@@ -18,10 +18,29 @@ function CatSwiper(props) {
         props.setAnswers((prevAnswers) => {
             const newAnswers = [...prevAnswers];
             newAnswers[index] = changed;
+            filterCats(newAnswers);
             return newAnswers;
         })
+
     }
 
+
+    function filterCats(newAnswers) {
+        const newCats = cats.filter(obj => {
+            let match = true;
+            for (let i = 0; i < newAnswers.length; i++) {
+                const catProp = Object.keys(obj)[i];
+                if (catProp !== ("name" || "img" || "url") && obj[catProp] !== newAnswers[i]) {
+                    match = false;
+                    break;
+                }
+            }
+            return match;
+        });
+
+        props.setNewCats(newCats);
+        console.log(newCats);
+    }
 
 
 
@@ -104,9 +123,6 @@ function CatSwiper(props) {
                                 <label for="ishealthy2">Chory</label>
                             </div>
                         </fieldset>
-                        <div>
-                            <button onClick={null}>Spróbuj szczęścia!</button>
-                        </div>
                     </form>
                 </div>
             </div>
