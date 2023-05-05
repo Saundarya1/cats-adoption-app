@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import backgroundFrame from './assets/images/backgroundFrame.png';
 import { cats } from './assets/arrays/cats';
 import { questions } from './assets/arrays/questions';
@@ -18,10 +18,8 @@ function App() {
 
   const [filteredCats, setFilteredCats] = useState([]);
 
-  useEffect(() => { }, [userAnswers]);
 
-
-  // console.log(userAnswers);
+   console.log(userAnswers + "Stare odpowiedzi");
 
   function handleNextStep(event) {
 
@@ -49,7 +47,7 @@ function App() {
       let match = true;
       for (let i = 0; i < userAnswers.length; i++) {
         const catProp = Object.keys(obj)[i];
-        if (catProp !== ("name" || "img" || "url") && obj[catProp] !== userAnswers[i]) { //potrzebujesz tylko tablicy z odpowiedzi
+        if (catProp !== ("name" || "img" || "url") && obj[catProp] !== userAnswers[i]) { 
           match = false;
           break;
         }
@@ -57,7 +55,7 @@ function App() {
       return match;
     });
     setFilteredCats(filteredCats);
-    //console.log(filteredCats);
+    /*console.log(filteredCats + "stara tablica kotów");*/
   }
 
 

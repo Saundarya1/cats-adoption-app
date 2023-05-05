@@ -10,19 +10,21 @@ import { cats } from '../../assets/arrays/cats';
 function CatSwiper(props) {
 
     const answers = props.secondArray;
-    // console.log(answers);
+    console.log(answers + "nowe odpowiedzi");
 
 
 
     const handleAnswerChange = (index, changed) => {
-        props.setAnswers((prevAnswers) => {
-            const newAnswers = [...prevAnswers];
+        props.setAnswers(() => {
+            const newAnswers = [...props.secondArray];
             newAnswers[index] = changed;
             filterCats(newAnswers);
+            console.log(newAnswers + "nowe odpowiedzi")
             return newAnswers;
         })
 
     }
+
 
 
     function filterCats(newAnswers) {
@@ -39,7 +41,7 @@ function CatSwiper(props) {
         });
 
         props.setNewCats(newCats);
-        console.log(newCats);
+        // console.log(newCats + "Nowa tablica kotów");
     }
 
 
