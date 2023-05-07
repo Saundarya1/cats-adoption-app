@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./catSwiper.scss";
 import '../../../node_modules/swiper/swiper.scss';
@@ -18,7 +18,7 @@ function CatSwiper(props) {
         props.setAnswers(() => {
             const newAnswers = [...props.secondArray];
             newAnswers[index] = changed;
-            filterCats(newAnswers);
+           // filterCats(newAnswers);
             console.log(newAnswers + "nowe odpowiedzi")
             return newAnswers;
         })
@@ -26,23 +26,25 @@ function CatSwiper(props) {
     }
 
 
-
-    function filterCats(newAnswers) {
-        const newCats = cats.filter(obj => {
-            let match = true;
-            for (let i = 0; i < newAnswers.length; i++) {
-                const catProp = Object.keys(obj)[i];
-                if (catProp !== ("name" || "img" || "url") && obj[catProp] !== newAnswers[i]) {
-                    match = false;
-                    break;
+    useEffect(() => {
+        function filterCats(newAnswers) {
+            const newCats = cats.filter(obj => {
+                let match = true;
+                for (let i = 0; i < newAnswers.length; i++) {
+                    const catProp = Object.keys(obj)[i];
+                    if (catProp !== ("name" || "img" || "url") && obj[catProp] !== newAnswers[i]) {
+                        match = false;
+                        break;
+                    }
                 }
-            }
-            return match;
-        });
+                return match;
+            });
 
-        props.setNewCats(newCats);
-        // console.log(newCats + "Nowa tablica kotów");
-    }
+            props.setNewCats(newCats);
+            // console.log(newCats + "Nowa tablica kotów");
+        }
+        filterCats(props.secondArray);
+    }, [props.firstArray]);
 
 
 
