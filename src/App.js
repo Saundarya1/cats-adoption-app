@@ -18,8 +18,8 @@ function App() {
 
   const [filteredCats, setFilteredCats] = useState([]);
 
+  //FUNKCJE
 
-   console.log(userAnswers + "Stare odpowiedzi");
 
   function handleNextStep(event) {
 
@@ -28,7 +28,6 @@ function App() {
     setStep(currentStep + 1);
   }
 
-  //FUNKCJE
 
   function handlePreviousStep() {
 
@@ -47,7 +46,7 @@ function App() {
       let match = true;
       for (let i = 0; i < userAnswers.length; i++) {
         const catProp = Object.keys(obj)[i];
-        if (catProp !== ("name" || "img" || "url") && obj[catProp] !== userAnswers[i]) { 
+        if (catProp !== ("name" || "img" || "url") && obj[catProp] !== userAnswers[i]) {
           match = false;
           break;
         }
@@ -55,7 +54,6 @@ function App() {
       return match;
     });
     setFilteredCats(filteredCats);
-    /*console.log(filteredCats + "stara tablica kotów");*/
   }
 
 
@@ -64,7 +62,7 @@ function App() {
     setStep(currentStep + 1)
   }
 
-  
+
   //APP
 
   return (

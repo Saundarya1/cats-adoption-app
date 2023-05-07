@@ -9,17 +9,14 @@ import { cats } from '../../assets/arrays/cats';
 
 function CatSwiper(props) {
 
-    const answers = props.secondArray;
-    console.log(answers + "nowe odpowiedzi");
 
+    const answers = props.secondArray;
 
 
     const handleAnswerChange = (index, changed) => {
         props.setAnswers(() => {
             const newAnswers = [...props.secondArray];
             newAnswers[index] = changed;
-           // filterCats(newAnswers);
-            console.log(newAnswers + "nowe odpowiedzi")
             return newAnswers;
         })
 
@@ -41,7 +38,6 @@ function CatSwiper(props) {
             });
 
             props.setNewCats(newCats);
-            // console.log(newCats + "Nowa tablica kotów");
         }
         filterCats(props.secondArray);
     }, [props.firstArray]);
