@@ -46,7 +46,7 @@ function App() {
       let match = true;
       for (let i = 0; i < userAnswers.length; i++) {
         const catProp = Object.keys(obj)[i];
-        if (catProp !== ("name" || "img" || "url") && obj[catProp] !== userAnswers[i]) {
+        if (obj[catProp] !== userAnswers[i]) {
           match = false;
           break;
         }

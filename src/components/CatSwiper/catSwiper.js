@@ -29,7 +29,7 @@ function CatSwiper(props) {
                 let match = true;
                 for (let i = 0; i < newAnswers.length; i++) {
                     const catProp = Object.keys(obj)[i];
-                    if (catProp !== ("name" || "img" || "url") && obj[catProp] !== newAnswers[i]) {
+                    if (obj[catProp] !== newAnswers[i]) {
                         match = false;
                         break;
                     }
