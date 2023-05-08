@@ -1,70 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+.............ENGLISH (polish below)
 
-## Available Scripts
 
-In the project directory, you can run:
+This simple application is associeted with the cat rescue foundation, in which i am currently helping as a volunteer.
 
-### `npm start`
+The cats appearing in the results are real - and all of them are looking for their new home.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app allows the user to find the cats, which match his/her preferences (e.g. if the cat has to be rather cuddly or rather independent, if it should get along with other cats or dogs, if it can have any health issues etc.)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+NOTE (!!!!):
 
-### `npm test`
+- the appliccation would probably be further developed, as i plan to add (or at last try to) a box with a hint, which would instruct
+the user - if his/her answers won't display any cats - which of the answers could be changed for the app to show the nearest result
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- the application is made in polish, as the foundation does not give their cats away abroad. However, the note below should help those, who do not speak polish - but would like to check the app out - to click through it and get some results :).
 
-### `npm run build`
+- according to the notes above - some answers won't lead to any cats. Here are some possibilities, which would display cats (it works both with the ,,quiz" buttons and the (eventual) ending form):
++ left, left, left, left, left, left
++ left, left, left, left, right, left
++ rigth, left, right, right, right, left
++ left, right, rigth, left, right, left
++ right, left, right, left, right, left
++ right, left, rigth, rigth, right, right
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- this is one of the answers-chain, which WON'T display any cats, if you want to check out the ,,no-cats" ending form:
++ right, right, left, left, left, left
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- the links in the results should redirect the user to the adequate cat site within the official foundation site - although if the cat 
+got addopted recently, then the link might not be working (though i'm trying my best to be up to date) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+.............POLISH
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ta prosta aplikacja jest związana z fundacją ratującą koty, której aktualnie pomagam jako wolontariuszka.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Koty pojawiające się w wynikach są prawdziwe - i wszystkie szukają nowych domów.
 
-## Learn More
+Apka pozwala użytkownikowi znaleźć koty, które spełniają jej/jego preferencje (np. czy kot musi być raczej ,,miziasty" czy raczej niezależny, czy powinien dogadywać się z innymi kotami lub psami, czy może mieć problemy zdrowotne itp.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ZWRÓĆ UWAGĘ (!!!!):
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- aplikacja najpewniej będzie dalej rozwijana, jako że planuję dodać (lub przynajmniej spróbować) pole tekstowe z podpowiedzią, która poinstruuje użytkownika/czkę - jeżeli jego/jej odpowiedzi nie wyświetlą żadnych kotów - które odpowiedzi można zmienić, by apka wyświetliła najbliższy wynik
 
-### Code Splitting
+- aplikacja jest stworzona w języku polskim, jako że fundacja nie wydaje swoich kotów za granicę. Jednak notka poniżej powinna pomóc tym, którzy nie mówią po polsku - a chcieliby wypróbować apkę - przeklikać się przez nią i otrzymać jakieś wyniki.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- nawiązując do notek powyżej - niektóre odpowiedzi nie prowadzą do żadnych kotów. Oto niektóre możliwości, które wyświetlą koty (działają zarówno w przypadku ,,quizu", jak i (ewentualnego) formularza końcowego):
 
-### Analyzing the Bundle Size
++ lewy, lewy, lewy, lewy, lewy, lewy
++ lewy, lewy, lewy, lewy, prawy, lewy
++ prawy, lewy, prawy, prawy, prawy, lewy
++ lewy, prawy, prawy, lewy, prawy, lewy
++ prawy, lewy, prawy, lewy, prawy, lewy
++ prawy, lewy, prawy, prawy, prawy, prawy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- oto jeden z łańcuchów odpowiedzi, który NIE BĘDZIE wyświetlał żadnych kotów, jeśli chcesz sprawdzić końcowy formularz ,,bez kotów":
++ prawy, prawy, lewy, lewy, lewy, lewy
 
-### Making a Progressive Web App
+- linki w wynikach powinny przekierować użytkownika/czkę do odpowiedniej strony z kotem na oficjalnej stronie fundacji - jednak jeżeli kot został ostatnio adoptowany, link może okazać się nieaktywny (mimo, że staram się być na bieżąco)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
