@@ -92,7 +92,10 @@ function App() {
               currentStep={currentStep}
               handleNextStep={handleNextStep}
             />
-            <button className="wool" onClick={handlePreviousStep}><img src={wool} /></button>
+            {index > 0 &&
+              <button className="wool" onClick={handlePreviousStep}><img src={wool} /></button>
+            }
+
           </div>
         )
       ))}
