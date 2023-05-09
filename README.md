@@ -29,6 +29,8 @@ the user - if his/her answers won't display any cats - which of the answers coul
 - the links in the results should redirect the user to the adequate cat site within the official foundation site - although if the cat 
 got addopted recently, then the link might not be working (though i'm trying my best to be up to date) 
 
+- the ending ,,no-cats" form is currently hard-coded, as i faced some issues with displaying it by map function, but i'm working on that (i also plan to change ,,yes/no" properties to ,,true/false")
+
 
 
 .............POLISH
@@ -59,4 +61,6 @@ ZWRÓĆ UWAGĘ (!!!!):
 + prawy, prawy, lewy, lewy, lewy, lewy
 
 - linki w wynikach powinny przekierować użytkownika/czkę do odpowiedniej strony z kotem na oficjalnej stronie fundacji - jednak jeżeli kot został ostatnio adoptowany, link może okazać się nieaktywny (mimo, że staram się być na bieżąco)
+
+- na chwilę obecną formularz końcowy ,,bez kotów" jest ,,hard-coded", z uwagi na drobne problemy z wyświetleniem go za pomocą funkcji map, aktualnie pracuję nad tym (mam również zamiar zamienić wartości ,,tak/nie" na ,,true/false")
 

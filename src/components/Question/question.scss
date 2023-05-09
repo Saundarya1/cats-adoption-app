@@ -19,14 +19,15 @@
 
     button {
         margin-top: -20px;
+        margin-bottom: 5%;
         padding: 15px;
         background-color: white;
-        border-radius: 20%;
+        border-radius: 20px;
         font-size: 25px;
         max-width: 250px;
     }
 
-    button:hover{
+    button:hover {
         background-color: rgb(2, 223, 39, 0.5);
     }
 
@@ -42,5 +43,20 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .question-container {
+        margin-left: 10%;
+        margin-top: 20%;
+
+        button {
+            padding: 15px;
+            background-color: white;
+            border-radius: 20px;
+            font-size: 15px;
+            max-width: 150px;
+        }
     }
 }

@@ -69,14 +69,7 @@ function App() {
     <div className="App"
 
       style={{
-        backgroundImage: `url(${backgroundFrame})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        width: "100vw",
-        height: "100vh",
-        backgroundPosition: "center",
-        position: "absolute",
-        zIndex: "-1"
+        backgroundImage: `url(${backgroundFrame})`
       }}>
 
 
@@ -84,7 +77,7 @@ function App() {
 
         currentStep === index + 1 && index <= questions.length + 1 && (
 
-          <div>
+          <div className="quiz-container">
             <Question
               userQuestion={question.question}
               userAnswer1={question.leftBtn}
