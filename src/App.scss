@@ -1,4 +1,5 @@
 .App {
+    background-image: url(./assets/images/backgroundFrame.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100vw;
@@ -9,9 +10,6 @@
 }
 
 body {
-    //background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-    //background-color: rgb(230, 77, 21);
-    //background-color: rgb(211, 204, 204);
     background-color: #ebebeb;
 }
 
@@ -31,7 +29,7 @@ body {
     border-width: 10px;
     font-family: 'DynaPuff', cursive;
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 
@@ -55,5 +53,31 @@ body {
 
     .showCatsBtn {
         margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .App {
+        background-image: url(./assets/images/backgroundFrame2.png);
+    }
+
+    .quiz-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .App {
+        background-image: url(./assets/images/backgroundFrame3.png);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgba(180, 7, 7, 0.6);
+    }
+
+    .quiz-container{
+        margin-top: 60px;
     }
 }

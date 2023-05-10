@@ -60,3 +60,70 @@
         }
     }
 }
+
+@media screen and (max-width: 770px) {
+    .question-container {
+        margin-left: 25%;
+        margin-top: 10%;
+
+        & &_question {
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+
+        & &_answers {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+
+            button {
+                margin: 5px;
+                font-size: 20px;
+                max-width: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .question-container {
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+        margin-left: 0%;
+
+        & &_question {
+            margin: 60px;
+        }
+
+        & &_answers {
+            margin-top: -50px;
+
+            button {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .question-container {
+        background-color: transparent;
+        margin-top: 80px;
+
+        & &_question {
+            p {
+                font-size: 30px;
+            }
+
+        }
+
+        & &_answers {
+            margin-top: -80px;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import backgroundFrame from './assets/images/backgroundFrame.png';
 import { cats } from './assets/arrays/cats';
 import { questions } from './assets/arrays/questions';
 import wool from './assets/images/wool2.png';
@@ -66,11 +65,7 @@ function App() {
   //APP
 
   return (
-    <div className="App"
-
-      style={{
-        backgroundImage: `url(${backgroundFrame})`
-      }}>
+    <div className="App">
 
 
       {questions.map((question, index) => (
@@ -102,14 +97,13 @@ function App() {
 
       {currentStep === questions.length + 2 && (
 
-        <div>
+       
           <CatSwiper
             firstArray={filteredCats}
             secondArray={userAnswers}
             setAnswers={setAnswers}
             setNewCats={filterCats}
           />
-        </div>
 
       )}
 

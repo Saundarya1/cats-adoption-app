@@ -99,3 +99,54 @@ form{
 .swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
 }
+
+@media screen and (max-width: 930px) {
+  .swiper{
+    margin-top: 18%;
+    height: 450px;
+    width: 300px;
+  }
+  .swiper-content{
+    height: 450px;
+    width: 340px;
+    margin-left: -6%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .swiper{
+    margin-top: 10%;
+    height: 500px;
+    width: 350px;
+  }
+  .swiper-content{
+    height: 500px;
+    width: 350px;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .swiper{
+    margin-top: 90px;
+    height: 450px;
+    width: 400px;
+  }
+  .swiper-content{
+    height: 440px;
+    width: 400px;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .swiper{
+    margin-top: 60%;
+    height: 300px;
+    width: 350px;
+  }
+  .swiper-content{
+    height: 280px;
+    width: 350px;
+  }
+}
