@@ -26,7 +26,7 @@ import Wołacz from '../../assets/images/Wołacz.jpg'; import Cwaniak from '../.
 import Amber from '../../assets/images/Amber.jpeg'; import Lobo from '../../assets/images/Lobo.jpg';
 import Sasza from '../../assets/images/Sasza.jpg'; import Małaczarna from '../../assets/images/Małaczarna.jpg';
 import Emilka from '../../assets/images/Emilka.jpg'; import Matylda2 from '../../assets/images/Matylda2.jpg';
-import Akira from '../../assets/images/Akira.jpeg';
+import Akira from '../../assets/images/Akira.jpg';
 
 export const cats = [
   {
