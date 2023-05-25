@@ -1,4 +1,6 @@
-import PanBuła from '../../assets/images/PanBuła.jpg'; import Żaba from '../../assets/images/Żaba.jpg';
+import Sara from '../../assets/images/Sara.jpg'; import Fusia from '../../assets/images/Fusia.jpg';
+import PanBuła from '../../assets/images/PanBuła.jpg'; import Akira from '../../assets/images/Akira.jpg';
+import Żaba from '../../assets/images/Żaba.jpg';
 import Alpinista from '../../assets/images/Alpinista.jpg'; import Cukierek from '../../assets/images/Cukierek.jpg';
 import Kacperek from '../../assets/images/Kacperek.jpg'; import Imbir from '../../assets/images/Imbir.jpg';
 import Endrju from '../../assets/images/Endrju.jpg'; import Szaruś from '../../assets/images/Szaruś.jpg';
@@ -26,7 +28,7 @@ import Wołacz from '../../assets/images/Wołacz.jpg'; import Cwaniak from '../.
 import Amber from '../../assets/images/Amber.jpeg'; import Lobo from '../../assets/images/Lobo.jpg';
 import Sasza from '../../assets/images/Sasza.jpg'; import Małaczarna from '../../assets/images/Małaczarna.jpg';
 import Emilka from '../../assets/images/Emilka.jpg'; import Matylda2 from '../../assets/images/Matylda2.jpg';
-import Akira from '../../assets/images/Akira.jpg';
+
 
 export const cats = [
   {
@@ -655,6 +657,28 @@ export const cats = [
     "name": "Akira",
     "img": `${Akira}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/akira/"
+  },
+  {
+    "likes other cats": "no", 
+    "likes cuddles": "yes",
+    "is energetic": "yes", 
+    "is young": "yes",  
+    "likes dogs": "yes", //dk
+    "is healthy": "yes", 
+    "name": "Sara",
+    "img": `${Sara}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/sara/"
+  },
+  {
+    "likes other cats": "yes", 
+    "likes cuddles": "yes",
+    "is energetic": "no", 
+    "is young": "yes",  
+    "likes dogs": "yes", //dk
+    "is healthy": "yes", 
+    "name": "Fusia",
+    "img": `${Fusia}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/fusia/"
   }
 ];
 
