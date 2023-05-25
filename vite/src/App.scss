@@ -1,0 +1,83 @@
+.App {
+    background-image: url(./assets/images/backgroundFrame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.wool {
+    margin-left: 22%;
+    background-color: transparent;
+    border: none;
+}
+
+.showCatsBtn {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+    background-color: rgba(180, 7, 7, 0.6);
+    border-radius: 7%;
+    border-color: rgb(55, 8, 8);
+    border-width: 10px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+
+@media screen and (max-width: 930px) {
+    .App {
+        width: 99%;
+    }
+
+    body {
+        width: 95vh;
+    }
+
+    .quiz-container {
+        display: flex;
+        flex-direction: row;
+
+        .wool {
+            margin-left: 0%;
+        }
+    }
+
+    .showCatsBtn {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .App {
+        background-image: url(./assets/images/backgroundFrame2.png);
+    }
+
+    .quiz-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .App {
+        background-image: url(./assets/images/backgroundFrame3.png);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgba(180, 7, 7, 0.6);
+    }
+
+    .quiz-container{
+        margin-top: 60px;
+    }
+}

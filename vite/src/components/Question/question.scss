@@ -1,0 +1,129 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: rgba(180, 7, 7, 0.6);
+    border-radius: 7%;
+
+    p {
+        font-family: 'DynaPuff', cursive;
+        font-size: 40px;
+        //color: white;
+        color: black;
+    }
+
+    button {
+        margin-top: -20px;
+        margin-bottom: 5%;
+        padding: 15px;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 25px;
+        max-width: 250px;
+    }
+
+    button:hover {
+        background-color: rgb(2, 223, 39, 0.5);
+    }
+
+    & &_question {
+        text-align: center;
+        margin: 40px;
+    }
+
+    & &_answers {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .question-container {
+        margin-left: 10%;
+        margin-top: 20%;
+
+        button {
+            padding: 15px;
+            background-color: white;
+            border-radius: 20px;
+            font-size: 15px;
+            max-width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .question-container {
+        margin-left: 25%;
+        margin-top: 10%;
+
+        & &_question {
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+
+        & &_answers {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+
+            button {
+                margin: 5px;
+                font-size: 20px;
+                max-width: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .question-container {
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+        margin-left: 0%;
+
+        & &_question {
+            margin: 60px;
+        }
+
+        & &_answers {
+            margin-top: -50px;
+
+            button {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .question-container {
+        background-color: transparent;
+        margin-top: 80px;
+
+        & &_question {
+            p {
+                font-size: 30px;
+            }
+
+        }
+
+        & &_answers {
+            margin-top: -80px;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
