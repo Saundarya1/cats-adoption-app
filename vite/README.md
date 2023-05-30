@@ -31,7 +31,7 @@ got addopted recently, then the link might not be working (though i'm trying my 
 
 - the ending ,,no-cats" form is currently hard-coded, as i faced some issues with displaying it by map function, but i'm working on that (i also plan to change ,,yes/no" properties to ,,true/false")
 
-- there are still a couple of scss issues left (i have to set some changes on really small devices and for horizontal devices position)
+- there are still a couple of scss issues left 
 
 
 
@@ -66,5 +66,5 @@ ZWRÓĆ UWAGĘ (!!!!):
 
 - na chwilę obecną formularz końcowy ,,bez kotów" jest ,,hard-coded", z uwagi na drobne problemy z wyświetleniem go za pomocą funkcji map, aktualnie pracuję nad tym (mam również zamiar zamienić wartości ,,tak/nie" na ,,true/false")
 
-- w dalszym ciągu pozostało mi kilka poprawek w scss (drobne zmiany dla bardzo małych urządzeń oraz dla położenia horyzontalnego)
+- w dalszym ciągu pozostało mi kilka poprawek w scss 
 

@@ -27,7 +27,7 @@
 
 }
 
-form{
+form {
   margin: 3%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
@@ -101,12 +101,13 @@ form{
 }
 
 @media screen and (max-width: 930px) {
-  .swiper{
+  .swiper {
     margin-top: 18%;
     height: 450px;
     width: 300px;
   }
-  .swiper-content{
+
+  .swiper-content {
     height: 450px;
     width: 340px;
     margin-left: -6%;
@@ -114,12 +115,13 @@ form{
 }
 
 @media screen and (max-width: 770px) {
-  .swiper{
+  .swiper {
     margin-top: 10%;
     height: 500px;
     width: 350px;
   }
-  .swiper-content{
+
+  .swiper-content {
     height: 500px;
     width: 350px;
     margin-left: 0%;
@@ -127,12 +129,13 @@ form{
 }
 
 @media screen and (max-width: 560px) {
-  .swiper{
+  .swiper {
     margin-top: 90px;
     height: 450px;
     width: 400px;
   }
-  .swiper-content{
+
+  .swiper-content {
     height: 440px;
     width: 400px;
     margin-left: 0%;
@@ -140,13 +143,32 @@ form{
 }
 
 @media screen and (max-width: 480px) {
-  .swiper{
+  .swiper {
     margin-top: 60%;
     height: 300px;
     width: 350px;
   }
-  .swiper-content{
+
+  .swiper-content {
     height: 280px;
     width: 350px;
+  }
+
+  .no-cats-alert {
+    margin-left: 0px;
+    margin-top: 55%;
+    width: auto;
+    font-size: 15px;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .swiper {
+    margin-top: 50%;
+  }
+
+  .no-cats-alert {
+    margin-top: 35%;
   }
 }
