@@ -2,14 +2,13 @@ import React from 'react';
 import { useState } from 'react';
 import { cats } from './assets/arrays/cats';
 import { questions } from './assets/arrays/questions';
-import wool from './assets/images/wool2.png';
+import wool from './assets/images/wooleng.png';
 import Question from './components/Question/question.js';
 import CatSwiper from './components/CatSwiper/catSwiper.js';
 
 
 function App() {
 
-  //ZMIENNE
 
   const [currentStep, setStep] = useState(1);
 
@@ -17,7 +16,6 @@ function App() {
 
   const [filteredCats, setFilteredCats] = useState([]);
 
-  //FUNKCJE
 
 
   function handleNextStep(event) {
@@ -62,7 +60,6 @@ function App() {
   }
 
 
-  //APP
 
   return (
     <div className="App">
@@ -90,7 +87,7 @@ function App() {
 
       {currentStep === questions.length + 1 && (
         <div>
-          <button onClick={filterAndStep} className='showCatsBtn'>Kliknij i poznaj kandydatów!</button>
+          <button onClick={filterAndStep} className='showCatsBtn'>Click and meet the candidates!</button>
           <button className="wool" onClick={handlePreviousStep}><img src={wool} /></button>
         </div>
       )}

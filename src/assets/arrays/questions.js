@@ -1,32 +1,32 @@
 export const questions = [
     {
-      "question": "Czy kot Twoich marzeń lubi inne koty?",
-      "leftBtn": "Tak!!!",
-      "rightBtn": "Nie musi, będzie jedynakiem :)."
+      "question": "Does your dream cat like other cats?",
+      "leftBtn": "Yeah!!!",
+      "rightBtn": "Nope, he's single ;)."
     },
     {
-      "question": "Kot Twoich marzeń to nakolannik czy samotnik?",
-      "leftBtn": "Miziakowy nakolannik.",
-      "rightBtn": "Samowystarczalny samotnik.",
+      "question": "Knees-occupying plushie or a loner?",
+      "leftBtn": "Cuddling plushie.",
+      "rightBtn": "Idependent loner.",
     },
     {
-      "question": "Aktywność kota Twoich marzeń to:",
-      "leftBtn": "Wulkan energii!!!",
-      "rightBtn": "Spokojny kanapowiec."
+      "question": "Your dream cat activity level:",
+      "leftBtn": "Ball of fire!!!",
+      "rightBtn": "Couch potato."
     },
     {
-      "question": "Wiek kota Twoich marzeń to:",
-      "leftBtn": "< 4 - młody odkrywca!",
-      "rightBtn": "5 + - stateczny jegomość"
+      "question": "Your dream cat age:",
+      "leftBtn": "< 4 - young explorer!",
+      "rightBtn": "5 + - stable Lady/Lord"
     },
     {
-      "question": "Kot Twoich marzeń i pies, to:",
-      "leftBtn": "Zgrany duet!",
-      "rightBtn": "...jaki pies?"
+      "question": "Your dream cat and a dog, are:",
+      "leftBtn": "The best team!",
+      "rightBtn": "...what dog?"
     },
     {
-      "question": "Czy chory kot ma miejsce w Twoich marzeniach?",
-      "leftBtn": "Nie, boję się",
-      "rightBtn": "Z pomocą damy radę!"
+      "question": "Could an ill cat find a place in your dreams?",
+      "leftBtn": "No, i'm scared",
+      "rightBtn": "With your help we can do it!"
     }
   ]
