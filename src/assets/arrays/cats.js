@@ -1,8 +1,9 @@
+import Gąska from '../../assets/images/Gąska.jpeg';
+import Sawi from '../../assets/images/Sawi.jpg';
 import Miszka from '../../assets/images/Miszka.jpg';
 import Blik from '../../assets/images/Blik.jpg';
 import Złotówka from '../../assets/images/Złotówka.jpg';
 import Samba from '../../assets/images/Samba.jpg';
-import Rumba from '../../assets/images/Rumba.jpg';
 import Romek from '../../assets/images/Romek.jpg';
 import Riczi from '../../assets/images/Riczi.jpg';
 import Marianek from '../../assets/images/Marianek.jpg';
@@ -76,6 +77,28 @@ export const cats = [
   {
     "likes other cats": "yes",
     "likes cuddles": "yes",
+    "is energetic": "no",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Gąska",
+    "img": `${Gąska}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/gaska/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "yes",
+    "is energetic": "yes",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Sawi",
+    "img": `${Sawi}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/sawi/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "yes",
     "is energetic": "yes",
     "is young": "yes",
     "likes dogs": "no", //dk
@@ -116,17 +139,6 @@ export const cats = [
     "name": "Samba",
     "img": `${Samba}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/samba/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Rumba",
-    "img": `${Rumba}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/rumba-2/"
   },
   {
     "likes other cats": "yes",

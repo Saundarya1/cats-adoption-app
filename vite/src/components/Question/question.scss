@@ -3,17 +3,16 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
-    margin-top: 10%;
-    background-color: rgba(180, 7, 7, 0.6);
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    margin-left: 0%;
+    background-color: transparent;
     border-radius: 7%;
 
     p {
         font-family: 'DynaPuff', cursive;
         font-size: 40px;
-        //color: white;
         color: black;
     }
 
@@ -23,8 +22,9 @@
         padding: 15px;
         background-color: white;
         border-radius: 20px;
-        font-size: 25px;
-        max-width: 250px;
+        font-size: 15px;
+        max-width: 150px;
+
     }
 
     button:hover {
@@ -33,41 +33,56 @@
 
     & &_question {
         text-align: center;
-        margin: 40px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+
+        p {
+            font-size: 30px;
+        }
     }
 
     & &_answers {
         display: flex;
-        flex-direction: row;
         align-self: center;
         flex-wrap: nowrap;
         justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
         width: 80%;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    .question-container {
-        margin-left: 10%;
-        margin-top: 20%;
 
         button {
-            padding: 15px;
-            background-color: white;
-            border-radius: 20px;
-            font-size: 15px;
-            max-width: 150px;
+            margin: 5px;
+            font-size: 25px;
+            width: 100%;
+            max-width: none;
         }
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 400px) {
     .question-container {
-        margin-left: 25%;
-        margin-top: 10%;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .question-container {
+        max-width: 95%;
+        align-self: center;
+        background-color: rgba(180, 7, 7, 0.6);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .question-container {
+
+        width: 80%;
+        height: 500px;
+        margin-top: 30%;
+        justify-content: center;
 
         & &_question {
-            margin-top: 30px;
+            margin-top: -30px;
             margin-bottom: 0px;
         }
 
@@ -85,44 +100,57 @@
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (min-width: 900px) {
     .question-container {
-        width: 100%;
-        height: auto;
-        margin-top: 20%;
-        margin-left: 0%;
-
-        & &_question {
-            margin: 60px;
-        }
-
-        & &_answers {
-            margin-top: -50px;
-
-            button {
-                font-size: 25px;
-            }
-        }
+        margin-top: 45%;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1000px) {
     .question-container {
-        background-color: transparent;
-        margin-top: 80px;
+        width: 50%;
+        height: 30%;
+        margin-left: 25%;
+        margin-top: 10%;
+
+        p {
+            font-size: 40px;
+        }
+
+        button {
+            margin-bottom: 15%;
+            padding: 15px;
+        }
+
+        button:hover {
+            background-color: rgb(2, 223, 39, 0.5);
+        }
 
         & &_question {
-            p {
-                font-size: 30px;
-            }
+            text-align: center;
+            margin: 40px;
 
+            p {
+                font-size: 40px;
+            }
         }
 
         & &_answers {
-            margin-top: -80px;
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            width: 80%;
 
             button {
-                width: 100%;
+                min-height: 80px;
+                width: max-content;
+                font-size: 25px;
+                max-width: 250px;
+                padding: 15px;
+                margin-bottom: 5%;
+                margin-top: -20px;
             }
         }
     }
