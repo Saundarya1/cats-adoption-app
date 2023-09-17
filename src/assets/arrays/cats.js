@@ -1,31 +1,19 @@
 import Gąska from '../../assets/images/Gąska.jpeg';
-import Sawi from '../../assets/images/Sawi.jpg';
 import Miszka from '../../assets/images/Miszka.jpg';
 import Blik from '../../assets/images/Blik.jpg';
 import Złotówka from '../../assets/images/Złotówka.jpg';
-import Samba from '../../assets/images/Samba.jpg';
 import Romek from '../../assets/images/Romek.jpg';
-import Riczi from '../../assets/images/Riczi.jpg';
-import Marianek from '../../assets/images/Marianek.jpg';
 import Zelda from '../../assets/images/Zelda.jpg';
-import Bomba from '../../assets/images/Bomba.jpg';
-import Milka from '../../assets/images/Milka.jpg';
 import Górka from '../../assets/images/Górka.jpg';
 import Roman from '../../assets/images/Roman.jpg';
-import Franek from '../../assets/images/Franek.jpg';
-import Mania from '../../assets/images/Mania.jpg';
-import Migotka from '../../assets/images/Migotka.jpg';
 import Kazia from '../../assets/images/Kazia.jpg';
 import Sprite from '../../assets/images/Sprite.jpg';
 import Sara from '../../assets/images/Sara.jpg'; 
 import Fusia from '../../assets/images/Fusia.jpg';
 import Lolek from '../../assets/images/Lolek.jpg'; 
 import PanBuła from '../../assets/images/PanBuła.jpg'; 
-import Akira from '../../assets/images/Akira.jpg'; 
-import Żaba from '../../assets/images/Żaba.jpg';
-import Alpinista from '../../assets/images/Alpinista.jpg'; 
+import Akira from '../../assets/images/Akira.jpg';
 import Cukierek from '../../assets/images/Cukierek.jpg';
-import Kacperek from '../../assets/images/Kacperek.jpg'; 
 import Imbir from '../../assets/images/Imbir.jpg';
 import Endrju from '../../assets/images/Endrju.jpg'; 
 import Szaruś from '../../assets/images/Szaruś.jpg';
@@ -37,8 +25,7 @@ import Bella from '../../assets/images/Bella.jpg';
 import Filip from '../../assets/images/Filip.jpg'; 
 import Grubcio from '../../assets/images/Grubcio.jpg';
 import Forfi from '../../assets/images/Forfi.jpg';
-import Pestka from '../../assets/images/Pestka.jpg'; 
-import Mati from '../../assets/images/Mati.jpg';
+import Pestka from '../../assets/images/Pestka.jpg';
 import Perun from '../../assets/images/Perun.jpeg'; 
 import Matylda from '../../assets/images/Matylda.jpg';
 import Peppa from '../../assets/images/Peppa.jpg'; 
@@ -46,7 +33,6 @@ import Łodyżka from '../../assets/images/Łodyżka.jpeg';
 import Micek from '../../assets/images/Micek.jpg';
 import Wiewiórka from '../../assets/images/Wiewiórka.jpg';
 import Neska from '../../assets/images/Neska.jpg'; 
-import Krawacik from '../../assets/images/Krawacik.jpg';
 import Mariolka from '../../assets/images/Mariolka.jpg'; 
 import Raspi from '../../assets/images/Raspi.jpeg';
 import Elżbieta from '../../assets/images/Elżbieta.jpg'; 
@@ -66,7 +52,6 @@ import Mela from '../../assets/images/Mela.jpg';
 import Wołacz from '../../assets/images/Wołacz.jpg'; 
 import Cwaniak from '../../assets/images/Cwaniak.jpg';
 import Amber from '../../assets/images/Amber.jpeg'; 
-import Lobo from '../../assets/images/Lobo.jpg';
 import Sasza from '../../assets/images/Sasza.jpg'; 
 import Małaczarna from '../../assets/images/Małaczarna.jpg';
 import Emilka from '../../assets/images/Emilka.jpg'; 
@@ -84,17 +69,6 @@ export const cats = [
     "name": "Gąska",
     "img": `${Gąska}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/gaska/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Sawi",
-    "img": `${Sawi}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/sawi/"
   },
   {
     "likes other cats": "yes",
@@ -136,42 +110,9 @@ export const cats = [
     "is young": "yes",
     "likes dogs": "no", //dk
     "is healthy": "yes",
-    "name": "Samba",
-    "img": `${Samba}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/samba/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
     "name": "Romek",
     "img": `${Romek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/romek/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Riczi",
-    "img": `${Riczi}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/riczi/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Marianek",
-    "img": `${Marianek}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/marianek/"
   },
   {
     "likes other cats": "yes",
@@ -183,28 +124,6 @@ export const cats = [
     "name": "Zelda",
     "img": `${Zelda}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/zelda/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Bomba",
-    "img": `${Bomba}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/bomba/"
-  },
-  {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Milka",
-    "img": `${Milka}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/milka-2/"
   },
   {
     "likes other cats": "yes",
@@ -227,39 +146,6 @@ export const cats = [
     "name": "Roman",
     "img": `${Roman}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/roman/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Franek",
-    "img": `${Franek}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/franek-kompost/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Mania",
-    "img": `${Mania}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/mania/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Migotka",
-    "img": `${Migotka}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/panna-migotka/"
   },
   {
     "likes other cats": "no",
@@ -340,28 +226,6 @@ export const cats = [
     "url": "https://kotyspodbloku.pl/szuka-domu/akira/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "no", //charakterna
-    "is energetic": "yes",
-    "is young": "yes",    
-    "likes dogs": "no",
-    "is healthy": "yes",
-    "name": "Żaba",
-    "img": `${Żaba}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/zaba/"
-  },
-  {
-    "likes other cats": "no", //dk
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes", //dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes", //dk
-    "name": "Alpinista",
-    "img": `${Alpinista}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/alpinista/"
-  },
-  {
     "likes other cats": "yes",
     "likes cuddles": "no", //ostrożny
     "is energetic": "yes",
@@ -371,17 +235,6 @@ export const cats = [
     "name": "Cukierek",
     "img": `${Cukierek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/cukierek/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no", //so-so
-    "is young": "yes", //dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes", //dk
-    "name": "Kacperek",
-    "img": `${Kacperek}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/kacperek/"
   },
   {
     "likes other cats": "no", //dk
@@ -516,17 +369,6 @@ export const cats = [
     "url": "https://kotyspodbloku.pl/szuka-domu/pestka/"
   },
   {
-    "likes other cats": "no", 
-    "likes cuddles": "yes", 
-    "is energetic": "yes", 
-    "is young": "yes",  //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes", 
-    "name": "Mati",
-    "img": `${Mati}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/mati/"
-  },
-  {
     "likes other cats": "yes", 
     "likes cuddles": "yes", 
     "is energetic": "no", 
@@ -602,17 +444,6 @@ export const cats = [
     "name": "Neska",
     "img": `${Neska}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/neska/"
-  },
-  {
-    "likes other cats": "yes", 
-    "likes cuddles": "yes", 
-    "is energetic": "yes", 
-    "is young": "yes",  //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes", 
-    "name": "Krawacik",
-    "img": `${Krawacik}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/krawacik/"
   },
   {
     "likes other cats": "yes", 
@@ -822,17 +653,6 @@ export const cats = [
     "name": "Amber",
     "img": `${Amber}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mama-kociego-trio/"
-  },
-  {
-    "likes other cats": "yes", 
-    "likes cuddles": "yes",  //so-so
-    "is energetic": "no", 
-    "is young": "no",  
-    "likes dogs": "no", //dk
-    "is healthy": "no", 
-    "name": "Lobo",
-    "img": `${Lobo}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/lobo/"
   },
   {
     "likes other cats": "no", 
