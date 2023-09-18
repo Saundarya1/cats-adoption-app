@@ -38,3 +38,4 @@ ZWRÓĆ UWAGĘ (!!!!):
 - w dalszym ciągu pozostało mi kilka poprawek w scss (drobne zmiany dla bardzo małych urządzeń oraz dla położenia horyzontalnego)
 
 "# cats-adoption" 
+"# cats-adoption" 
