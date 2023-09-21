@@ -9,7 +9,7 @@ import CatSwiper from './components/CatSwiper/catSwiper.js';
 
 function App() {
 
-  
+ 
 
   const [currentStep, setStep] = useState(1);
 
@@ -62,7 +62,7 @@ function App() {
   }
 
 
-  
+ 
 
   return (
     <div className="App">
