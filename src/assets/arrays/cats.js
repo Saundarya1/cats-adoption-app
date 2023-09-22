@@ -14,7 +14,6 @@ import Lolek from '../../assets/images/Lolek.jpg';
 import PanBuła from '../../assets/images/PanBuła.jpg';
 import Akira from '../../assets/images/Akira.jpg';
 import Cukierek from '../../assets/images/Cukierek.jpg';
-import Imbir from '../../assets/images/Imbir.jpg';
 import Endrju from '../../assets/images/Endrju.jpg';
 import Szaruś from '../../assets/images/Szaruś.jpg';
 import Tekla from '../../assets/images/Tekla.jpg';
@@ -22,7 +21,6 @@ import Niunia from '../../assets/images/Niunia.jpg';
 import Ludwisia from '../../assets/images/Ludwisia.jpg';
 import Czedar from '../../assets/images/Czedar.jpg';
 import Bella from '../../assets/images/Bella.jpg';
-import Filip from '../../assets/images/Filip.jpg';
 import Grubcio from '../../assets/images/Grubcio.jpg';
 import Forfi from '../../assets/images/Forfi.jpg';
 import Pestka from '../../assets/images/Pestka.jpg';
@@ -77,10 +75,94 @@ import Mini from '../../assets/images/Mini.jpg';
 import Migotka from '../../assets/images/Migotka.jpg';
 import Fiona from '../../assets/images/Fiona.jpg';
 import Stefan from '../../assets/images/Stefan.jpg';
+import Maja from '../../assets/images/Maja.jpg';
+import Bajka from '../../assets/images/Bajka.jpg';
+import Silver from '../../assets/images/Silver.jpg';
+import Mila from '../../assets/images/Mila.jpg';
+import Gniewinia from '../../assets/images/Gniewinia.jpg';
+import Bruno from '../../assets/images/Bruno.jpg';
+import Dymek from '../../assets/images/Dymek.jpeg';
 
 
 
 export const cats = [
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "no",
+    "is energetic": "no",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Dymek",
+    "img": `${Dymek}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/dymek/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "yes",
+    "is energetic": "no",
+    "is young": "no",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Bruno",
+    "img": `${Bruno}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/bruno/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "no",
+    "is energetic": "no",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Gniewinia",
+    "img": `${Gniewinia}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/gniewinia/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "yes",
+    "is energetic": "yes",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Mila",
+    "img": `${Mila}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/mila/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "yes",
+    "is energetic": "no",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "no",
+    "name": "Silver",
+    "img": `${Silver}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/silver/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "no",
+    "is energetic": "no",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Bajka",
+    "img": `${Bajka}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/bajka-2/"
+  },
+  {
+    "likes other cats": "yes",
+    "likes cuddles": "yes",
+    "is energetic": "yes",
+    "is young": "yes",
+    "likes dogs": "no", //dk
+    "is healthy": "yes",
+    "name": "Maja",
+    "img": `${Maja}`,
+    "url": "https://kotyspodbloku.pl/szuka-domu/maja-i-franek/"
+  },
   {
     "likes other cats": "no",
     "likes cuddles": "yes",
@@ -490,17 +572,6 @@ export const cats = [
     "url": "https://kotyspodbloku.pl/szuka-domu/cukierek/"
   },
   {
-    "likes other cats": "no", //dk
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes", //dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Imbir",
-    "img": `${Imbir}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/imbir/"
-  },
-  {
     "likes other cats": "yes", //whatever
     "likes cuddles": "yes",
     "is energetic": "no",
@@ -576,17 +647,6 @@ export const cats = [
     "name": "Bella",
     "img": `${Bella}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/bella/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no", //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes", //dk
-    "name": "Filip",
-    "img": `${Filip}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/filip/"
   },
   {
     "likes other cats": "yes",
