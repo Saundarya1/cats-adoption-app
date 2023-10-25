@@ -1,12 +1,10 @@
 import Gąska from '../../assets/images/Gąska.jpeg';
-import Miszka from '../../assets/images/Miszka.jpg';
 import Blik from '../../assets/images/Blik.jpg';
 import Złotówka from '../../assets/images/Złotówka.jpg';
 import Romek from '../../assets/images/Romek.jpg';
 import Zelda from '../../assets/images/Zelda.jpg';
 import Górka from '../../assets/images/Górka.jpg';
 import Roman from '../../assets/images/Roman.jpg';
-import Kazia from '../../assets/images/Kazia.jpg';
 import Sprite from '../../assets/images/Sprite.jpg';
 import Sara from '../../assets/images/Sara.jpg';
 import Fusia from '../../assets/images/Fusia.jpg';
@@ -17,7 +15,6 @@ import Cukierek from '../../assets/images/Cukierek.jpg';
 import Endrju from '../../assets/images/Endrju.jpg';
 import Szaruś from '../../assets/images/Szaruś.jpg';
 import Tekla from '../../assets/images/Tekla.jpg';
-import Niunia from '../../assets/images/Niunia.jpg';
 import Ludwisia from '../../assets/images/Ludwisia.jpg';
 import Czedar from '../../assets/images/Czedar.jpg';
 import Bella from '../../assets/images/Bella.jpg';
@@ -36,7 +33,6 @@ import Raspi from '../../assets/images/Raspi.jpeg';
 import Elżbieta from '../../assets/images/Elżbieta.jpg';
 import Zosia from '../../assets/images/Zosia.jpg';
 import Halina from '../../assets/images/Halina.jpg';
-import Amigo from '../../assets/images/Amigo.jpg';
 import Pimpek from '../../assets/images/Pimpek.jpg';
 import Ciri from '../../assets/images/Ciri.jpeg';
 import Eleonora from '../../assets/images/Eleonora.jpg';
@@ -65,7 +61,6 @@ import Amator from '../../assets/images/Amator.jpg';
 import Franek from '../../assets/images/Franek.jpg';
 import Alusia from '../../assets/images/Alusia.jpg';
 import Halinka from '../../assets/images/Halinka.jpg';
-import Precel from '../../assets/images/Precel.jpg';
 import Szekspir from '../../assets/images/Szekspir.jpg';
 import Metafora from '../../assets/images/Metafora.jpg';
 import Jadzia from '../../assets/images/Jadzia.jpg';
@@ -265,17 +260,6 @@ export const cats = [
   {
     "likes other cats": "yes",
     "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", 
-    "name": "Precel",
-    "img": `${Precel}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/precel/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
     "is energetic": "no",
     "is young": "yes",
     "likes dogs": "no", //dk
@@ -412,17 +396,6 @@ export const cats = [
     "is young": "yes",
     "likes dogs": "no", //dk
     "is healthy": "yes",
-    "name": "Miszka",
-    "img": `${Miszka}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/miszka/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
     "name": "Blik",
     "img": `${Blik}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/blik/"
@@ -481,17 +454,6 @@ export const cats = [
     "name": "Roman",
     "img": `${Roman}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/roman/"
-  },
-  {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Kazia",
-    "img": `${Kazia}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/kasia/"
   },
   {
     "likes other cats": "yes",
@@ -603,17 +565,6 @@ export const cats = [
     "name": "Tekla",
     "img": `${Tekla}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/tekla/"
-  },
-  {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes", //dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
-    "name": "Niunia",
-    "img": `${Niunia}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/niunia/"
   },
   {
     "likes other cats": "yes",
@@ -812,17 +763,6 @@ export const cats = [
     "name": "Halina",
     "img": `${Halina}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/halina/"
-  },
-  {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",  //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
-    "name": "Amigo",
-    "img": `${Amigo}`,
-    "url": "https://kotyspodbloku.pl/szuka-domu/amigo/"
   },
   {
     "likes other cats": "yes",
