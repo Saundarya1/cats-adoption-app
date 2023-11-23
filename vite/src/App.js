@@ -90,7 +90,7 @@ function App() {
 
       {currentStep === questions.length + 1 && (
         <div>
-          <button onClick={filterAndStep} className='showCatsBtn'>Kliknij i poznaj kandydatów!</button>
+          <button onClick={filterAndStep} className='show-cats-btn'>Kliknij i poznaj kandydatów!</button>
           <button className="wool" onClick={handlePreviousStep}><img src={wool} /></button>
         </div>
       )}
