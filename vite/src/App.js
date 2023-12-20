@@ -78,7 +78,7 @@ function App() {
           Therefore some of the links to the cats on foundation's site may not work.
           The rest of the app should work correctly.
           Thank you for understanding!
-          <button onClick={toggleWarning}>OK</button>
+          <button className="warningBtn" onClick={toggleWarning}>OK</button>
         </div>
       }
 
