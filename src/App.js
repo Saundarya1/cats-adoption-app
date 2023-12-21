@@ -24,8 +24,8 @@ function App() {
 
   function handleNextStep(event) {
 
-    const questionNumber = event.target.id;
-    setAnswers(prevAnswers => [...prevAnswers, questionNumber]);
+    const questionNumber = event.target.value; //care
+    setAnswers(prevAnswers => [...prevAnswers, JSON.parse(questionNumber.toLowerCase())]); //care here
     setStep(currentStep + 1);
   }
 
