@@ -60,75 +60,75 @@ function CatSwiper(props) {
                     <form>
 
                         <div>
-                            <input type="radio" id="doeslikecats1" name="likes other cats" value="yes" checked={answers[0] === "yes"}
-                                onChange={() => handleAnswerChange(0, "yes")} />
+                            <input type="radio" id="doeslikecats1" name="likes other cats" value={true} checked={answers[0] === true}
+                                onChange={() => handleAnswerChange(0, true)} />
                             <label for="doeslikecats1">Lubi koty</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="doeslikecats1" name="likes other cats" value="no" checked={answers[0] === "no"}
-                                onChange={() => handleAnswerChange(0, "no")} />
+                            <input type="radio" id="doeslikecats1" name="likes other cats" value={false} checked={answers[0] === false}
+                                onChange={() => handleAnswerChange(0, false)} />
                             <label for="doeslikecats1">Nie lubi kotów</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="attitude1" name="likes cuddles" value="yes" checked={answers[1] === "yes"}
-                                onChange={() => handleAnswerChange(1, "yes")} />
+                            <input type="radio" id="attitude1" name="likes cuddles" value={true} checked={answers[1] === true}
+                                onChange={() => handleAnswerChange(1, true)} />
                             <label for="attitude1">Miziak</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="attitude2" name="likes cuddles" value="no" checked={answers[1] === "no"}
-                                onChange={() => handleAnswerChange(1, "no")} />
+                            <input type="radio" id="attitude2" name="likes cuddles" value={false} checked={answers[1] === false}
+                                onChange={() => handleAnswerChange(1, false)} />
                             <label for="attitude2">Samotnik</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="character1" name="is energetic" value="yes" checked={answers[2] === "yes"}
-                                onChange={() => handleAnswerChange(2, "yes")} />
+                            <input type="radio" id="character1" name="is energetic" value={true} checked={answers[2] === true}
+                                onChange={() => handleAnswerChange(2, true)} />
                             <label for="character1">Energiczny</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="character2" name="is energetic" value="no" checked={answers[2] === "no"}
-                                onChange={() => handleAnswerChange(2, "no")} />
+                            <input type="radio" id="character2" name="is energetic" value={false} checked={answers[2] === false}
+                                onChange={() => handleAnswerChange(2, false)} />
                             <label for="character2">Spokojny</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="isyoung1" name="is young" value="yes" checked={answers[3] === "yes"}
-                                onChange={() => handleAnswerChange(3, "yes")} />
+                            <input type="radio" id="isyoung1" name="is young" value={true} checked={answers[3] === true}
+                                onChange={() => handleAnswerChange(3, true)} />
                             <label for="isyoung1">Młodszy</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="isyoung2" name="is young" value="no" checked={answers[3] === "no"}
-                                onChange={() => handleAnswerChange(3, "no")} />
+                            <input type="radio" id="isyoung2" name="is young" value={false} checked={answers[3] === false}
+                                onChange={() => handleAnswerChange(3, false)} />
                             <label for="isyoung2">Starszy</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="doeslikedogs1" name="likes dogs" value="yes" checked={answers[4] === "yes"}
-                                onChange={() => handleAnswerChange(4, "yes")} />
+                            <input type="radio" id="doeslikedogs1" name="likes dogs" value={true} checked={answers[4] === true}
+                                onChange={() => handleAnswerChange(4, true)} />
                             <label for="doeslikedogs1">Lubi psy</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="doeslikedogs2" name="likes dogs" value="no" checked={answers[4] === "no"}
-                                onChange={() => handleAnswerChange(4, "no")} />
+                            <input type="radio" id="doeslikedogs2" name="likes dogs" value={false} checked={answers[4] === false}
+                                onChange={() => handleAnswerChange(4, false)} />
                             <label for="doeslikedogs2">Nie lubi psów</label>
                         </div>
 
 
                         <div>
-                            <input type="radio" id="ishealthy1" name="is healthy" value="yes" checked={answers[5] === "yes"}
-                                onChange={() => handleAnswerChange(5, "yes")} />
+                            <input type="radio" id="ishealthy1" name="is healthy" value={true} checked={answers[5] === true}
+                                onChange={() => handleAnswerChange(5, true)} />
                             <label for="ishealthy1">Zdrowy</label>
                         </div>
 
                         <div>
-                            <input type="radio" id="ishealthy2" name="is healthy" value="no" checked={answers[5] === "no"}
-                                onChange={() => handleAnswerChange(5, "no")} />
+                            <input type="radio" id="ishealthy2" name="is healthy" value={false} checked={answers[5] === false}
+                                onChange={() => handleAnswerChange(5, false)} />
                             <label for="ishealthy2">Chory</label>
                         </div>
 

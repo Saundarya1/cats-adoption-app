@@ -19,7 +19,7 @@ function App() {
 
   const [showWarning, setShowWarning] = useState(true);
 
-
+  console.log(userAnswers);
 
 
   function handleNextStep(event) {
