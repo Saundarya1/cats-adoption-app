@@ -82,874 +82,873 @@ import Dymek from '../../assets/images/Dymek.jpeg';
 
 export const cats = [
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Dymek",
     "img": `${Dymek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/dymek/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Bruno",
     "img": `${Bruno}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/bruno/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Gniewinia",
     "img": `${Gniewinia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/gniewinia/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Mila",
     "img": `${Mila}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mila/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Silver",
     "img": `${Silver}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/silver/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Bajka",
     "img": `${Bajka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/bajka-2/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Maja",
     "img": `${Maja}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/maja-i-franek/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "yes", 
-    "is healthy": "yes", //check
+    "likes other cats": false,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": true, 
+    "is healthy": true, //check
     "name": "Stefan",
     "img": `${Stefan}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/stefan-2/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", 
+    "likes other cats": false,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, 
     "name": "Fiona",
     "img": `${Fiona}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/fiona/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", 
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, 
     "name": "Migotka",
     "img": `${Migotka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/migotka-2/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", 
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, 
     "name": "Mini",
     "img": `${Mini}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mini/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "no", 
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false, //dk
+    "is healthy": false, 
     "name": "Robert",
     "img": `${Robert}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/robert/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "no", 
+    "likes other cats": false,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false, //dk
+    "is healthy": false, 
     "name": "Pola",
     "img": `${Pola}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/pola-2/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", 
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false, //dk
+    "is healthy": true, 
     "name": "Jadzia",
     "img": `${Jadzia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/jadzia-2/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes", 
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true, 
     "name": "Metafora",
     "img": `${Metafora}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/metafora/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", 
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, 
     "name": "Szekspir",
     "img": `${Szekspir}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/szekspir/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", //check
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, //check
     "name": "Halinka",
     "img": `${Halinka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/halinka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", //check
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, //check
     "name": "Alusia",
     "img": `${Alusia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/alusia/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Franek",
     "img": `${Franek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/franek/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Amator",
     "img": `${Amator}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/amator/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Strzałka",
     "img": `${Strzałka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/strzalka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Bagheera",
     "img": `${Bagheera}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/bagheera/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Mukla",
     "img": `${Mukla}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mukla/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": false,
     "name": "Pettson",
     "img": `${Pettson}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/pettson/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Findus",
     "img": `${Findus}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/findus/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes", //check
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true, //check
     "name": "Antosia",
     "img": `${Antosia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/antosia/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Wujenka",
     "img": `${Wujenka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/wujenka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Gąska",
     "img": `${Gąska}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/gaska/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Blik",
     "img": `${Blik}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/blik/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Złotówka",
     "img": `${Złotówka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/zlotowka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Romek",
     "img": `${Romek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/romek/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Zelda",
     "img": `${Zelda}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/zelda/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Górka",
     "img": `${Górka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/gorka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Roman",
     "img": `${Roman}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/roman/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Sprite",
     "img": `${Sprite}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/sprite/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes", //dk
-    "is healthy": "yes",
+    "likes other cats": false,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true, //dk
+    "is healthy": true,
     "name": "Sara",
     "img": `${Sara}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/sara/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "yes", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": true, //dk
+    "is healthy": true,
     "name": "Fusia",
     "img": `${Fusia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/fusia/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",//dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,//dk
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Lolek",
     "img": `${Lolek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/lolek/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",//dk
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,//dk
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Pan Buła",
     "img": `${PanBuła}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/pan-bula/"
   },
 
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Akira",
     "img": `${Akira}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/akira/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //ostrożny
-    "is energetic": "yes",
-    "is young": "yes",//ostrożny
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false, //ostrożny
+    "is energetic": true,
+    "is young": true,//ostrożny
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Cukierek",
     "img": `${Cukierek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/cukierek/"
   },
   {
-    "likes other cats": "yes", //whatever
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no", //prolly
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": true, //whatever
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false, //prolly
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Endrju",
     "img": `${Endrju}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/endrju/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes", //dk
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true, //dk
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Szaruś",
     "img": `${Szaruś}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/szarus/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //nieśmiała
-    "is energetic": "yes", //dk
-    "is young": "yes",//dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false, //nieśmiała
+    "is energetic": true, //dk
+    "is young": true,//dk
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Tekla",
     "img": `${Tekla}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/tekla/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no", //dk
-    "is young": "yes",//dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false, //dk
+    "is young": true,//dk
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Ludwisia",
     "img": `${Ludwisia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/ludwisia/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes", //prob
-    "is energetic": "no", //dk
-    "is young": "yes",//dk
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true, //prob
+    "is energetic": false, //dk
+    "is young": true,//dk
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Czedar",
     "img": `${Czedar}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/czedar/"
   },
   {
-    "likes other cats": "no", //dk
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no", //dk
-    "likes dogs": "yes",
-    "is healthy": "yes", //dk
+    "likes other cats": false, //dk
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false, //dk
+    "likes dogs": true,
+    "is healthy": true, //dk
     "name": "Bella",
     "img": `${Bella}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/bella/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes", //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes", //dk
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true, //dk
+    "likes dogs": false,  //dk
+    "is healthy": true, //dk
     "name": "Grubcio",
     "img": `${Grubcio}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/grubcio/"
   },
   {
-    "likes other cats": "yes", //dk
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes", //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes", //dk
+    "likes other cats": true, //dk
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true, //dk
+    "likes dogs": false,  //dk
+    "is healthy": true, //dk
     "name": "Forfi",
     "img": `${Forfi}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/burrito-i-forfiter/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Pestka",
     "img": `${Pestka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/pestka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",  //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,  //dk
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Perun",
     "img": `${Perun}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/perun/"
   },
   {
-    "likes other cats": "no", //dk
-    "likes cuddles": "no", //so-so
-    "is energetic": "no",
-    "is young": "yes", //nieśmiała
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": false, //dk
+    "likes cuddles": false, //so-so
+    "is energetic": false,
+    "is young": true, //nieśmiała
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Matylda",
     "img": `${Matylda}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/matylda-3/"
   },
   {
-    "likes other cats": "no", //dk
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes", //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "no",
+    "likes other cats": false, //dk
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true, //dk
+    "likes dogs": false,  //dk
+    "is healthy": false,
     "name": "Peppa",
     "img": `${Peppa}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/peppa/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //ostrożna
-    "is energetic": "no",
-    "is young": "yes", //ostrożna
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false, //ostrożna
+    "is energetic": false,
+    "is young": true, //ostrożna
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Łodyżka",
     "img": `${Łodyżka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/lodyzka/"
   },
   {
-    "likes other cats": "no", //dk
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes", //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": false, //dk
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true, //dk
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Micek",
     "img": `${Micek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/micek/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "yes",  //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": false,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": true,  //dk
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Wiewiórka",
     "img": `${Wiewiórka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/wiewiorka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //nieśmiała
-    "is energetic": "no",
-    "is young": "yes", //nieśmiała
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false, //nieśmiała
+    "is energetic": false,
+    "is young": true, //nieśmiała
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Neska",
     "img": `${Neska}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/neska/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //ostrożna 
-    "is energetic": "no",
-    "is young": "yes", //ostrożna
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false, //ostrożna 
+    "is energetic": false,
+    "is young": true, //ostrożna
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Mariolka",
     "img": `${Mariolka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mariolka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //lękliwy
-    "is energetic": "no",
-    "is young": "yes", //ostrożny
-    "likes dogs": "no",  //dk
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": false, //lękliwy
+    "is energetic": false,
+    "is young": true, //ostrożny
+    "likes dogs": false,  //dk
+    "is healthy": false,
     "name": "Raspi",
     "img": `${Raspi}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/raspi/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes", //czas
-    "is energetic": "yes",
-    "is young": "yes", //ostrożny
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true, //czas
+    "is energetic": true,
+    "is young": true, //ostrożny
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Elżbieta",
     "img": `${Elżbieta}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/elka/"
   },
   {
-    "likes other cats": "no", //lepiej jedynaczka
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": false, //lepiej jedynaczka
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Zosia",
     "img": `${Zosia}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/zosia/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "no",  //lekkie problemy behawioralne
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no",  //dk
-    "is healthy": "no",
+    "likes other cats": false,
+    "likes cuddles": false,  //lekkie problemy behawioralne
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false,  //dk
+    "is healthy": false,
     "name": "Halina",
     "img": `${Halina}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/halina/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",  //dk
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,  //dk
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Pimpek",
     "img": `${Pimpek}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/pimpek-i-malina/"
   },
   {
-    "likes other cats": "no", //only calm
-    "likes cuddles": "no", //lękliwa 
-    "is energetic": "no",
-    "is young": "yes", //lękliwa
-    "likes dogs": "no",
-    "is healthy": "yes",
+    "likes other cats": false, //only calm
+    "likes cuddles": false, //lękliwa 
+    "is energetic": false,
+    "is young": true, //lękliwa
+    "likes dogs": false,
+    "is healthy": true,
     "name": "Ciri",
     "img": `${Ciri}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/ciri/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no", //lękliwa 
-    "is energetic": "yes",
-    "is young": "yes", //lękliwa
-    "likes dogs": "no",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false, //lękliwa 
+    "is energetic": true,
+    "is young": true, //lękliwa
+    "likes dogs": false,
+    "is healthy": true,
     "name": "Eleonora",
     "img": `${Eleonora}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/alvin-brittany-i-eleonora/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes", //ostrożna
-    "is energetic": "yes",
-    "is young": "yes", //ostrożna
-    "likes dogs": "no",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true, //ostrożna
+    "is energetic": true,
+    "is young": true, //ostrożna
+    "likes dogs": false,
+    "is healthy": true,
     "name": "Dora",
     "img": `${Dora}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/dora/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no",
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false,
+    "is healthy": false,
     "name": "Jazz",
     "img": `${Jazz}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/jazz/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Lew",
     "img": `${Lew}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/lew/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",  //dk
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,  //dk
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Szaj",
     "img": `${Szaj}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/szaj/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Frodo",
     "img": `${Frodo}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/frodo/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "yes",
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": true,
+    "is healthy": true,
     "name": "Batman",
     "img": `${Batman}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/batman/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no",  //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": false,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false,  //dk
+    "is healthy": true,
     "name": "Mela",
     "img": `${Mela}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mela/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", //dk
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, //dk
     "name": "Wołacz",
     "img": `${Wołacz}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/wolacz/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",   //dk
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,   //dk
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Cwaniak",
     "img": `${Cwaniak}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/cwaniak/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",
-    "is energetic": "yes",
-    "is young": "yes",  //stawia granice
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": false,
+    "likes cuddles": true,
+    "is energetic": true,
+    "is young": true,  //stawia granice
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Amber",
     "img": `${Amber}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mama-kociego-trio/"
   },
   {
-    "likes other cats": "no",
-    "likes cuddles": "yes",  //so-so
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "no",
+    "likes other cats": false,
+    "likes cuddles": true,  //so-so
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false, //dk
+    "is healthy": false,
     "name": "Sasza",
     "img": `${Sasza}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/sasza/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",  //so-so
-    "is energetic": "no",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "no", //so-so
+    "likes other cats": true,
+    "likes cuddles": true,  //so-so
+    "is energetic": false,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": false, //so-so
     "name": "Mała Czarna",
     "img": `${Małaczarna}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/mala-czarna/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "no",  //ostrożna
-    "is energetic": "yes",
-    "is young": "yes",
-    "likes dogs": "no", //dk
-    "is healthy": "yes", //so-so
+    "likes other cats": true,
+    "likes cuddles": false,  //ostrożna
+    "is energetic": true,
+    "is young": true,
+    "likes dogs": false, //dk
+    "is healthy": true, //so-so
     "name": "Emilka",
     "img": `${Emilka}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/emilka/"
   },
   {
-    "likes other cats": "yes",
-    "likes cuddles": "yes",
-    "is energetic": "no",
-    "is young": "no",
-    "likes dogs": "no", //dk
-    "is healthy": "yes",
+    "likes other cats": true,
+    "likes cuddles": true,
+    "is energetic": false,
+    "is young": false,
+    "likes dogs": false, //dk
+    "is healthy": true,
     "name": "Matylda",
     "img": `${Matylda2}`,
     "url": "https://kotyspodbloku.pl/szuka-domu/matylda-2/"
   }
 ];
-

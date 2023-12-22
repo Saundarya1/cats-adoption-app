@@ -9,8 +9,8 @@ function Question(props) {
                 <p>{props.userQuestion}</p>
             </div>
             <div className="question-container_answers">
-                <button id="yes" onClick={props.handleNextStep}>{props.userAnswer1}</button>
-                <button id="no"  onClick={props.handleNextStep}>{props.userAnswer2}</button>
+                <button value={true} onClick={props.handleNextStep}>{props.userAnswer1}</button>
+                <button value={false}  onClick={props.handleNextStep}>{props.userAnswer2}</button>
             </div>
         </div >
 
